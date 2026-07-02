@@ -135,6 +135,12 @@ python scripts/auto_jd_prompt_tuner.py --apply --max-iters 5
 
 ### Step 2 — Ingest candidates into LanceDB (one-time, ~15–25 min on MPS, ~45 min CPU)
 
+> **⚠ Heads-up — this is the slow step.** Ingest embeds every one of
+> ~350k role descriptions with bge-base-en-v1.5, so plan for **15–25 min
+> on Apple-Silicon MPS or ~45 min on CPU**. First run also downloads the
+> bge model (~440 MB) from HuggingFace. It's a **one-time cost** —
+> everything downstream reads from the built `./redrob_db` and is fast.
+
 ```bash
 python scripts/ingestion.py \
     --input ../India_runs_data_and_ai_challenge/candidates.jsonl \
@@ -152,7 +158,13 @@ REDROB_EMBED_DEVICE=cpu python scripts/ingestion.py ...
 REDROB_EMBED_DEVICE=mps python scripts/ingestion.py ...
 ```
 
-### Step 3 — Rank + blend
+### Step 3 — Rank + blend (fast, ~10–60 s)
+
+> **✅ Fast path.** Once `./redrob_db` exists, ranking is cheap: SQL
+> prefilter drops the pool from 100k to ~1–5k, then a flat cosine over
+> just those roles + weighted blend finishes in seconds. Re-run this
+> step as often as you like while tuning `weights.json` — you never
+> need to re-ingest.
 
 ```bash
 python scripts/ranking.py \
@@ -165,8 +177,7 @@ python scripts/ranking.py \
 ```
 
 Outputs `top100_ranked.json` — 100 candidates with `final_score`,
-`score_breakdown`, and `per_project_evidence`. Runs in <1 min on the
-pre-filtered pool.
+`score_breakdown`, and `per_project_evidence`.
 
 Optional: run the LLM-as-judge weight tuner to refine `weights.json`:
 
