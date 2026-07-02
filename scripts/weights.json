@@ -1,0 +1,14 @@
+{
+  "project_match_score": 0.42,
+  "recruiter_response_rate_score": 0.15,
+  "skill_assessment_score": 0.08,
+  "saved_by_recruiters_score": 0.08,
+  "tenure_at_product_score": 0.10,
+  "github_activity_score_norm": 0.03,
+  "interview_completion_score": 0.10,
+  "profile_completeness_score_norm": 0.00,
+  "open_to_work_score": 0.02,
+  "endorsement_rate_score": 0.02,
+  "verification_score": 0.00,
+  "excluded_company_penalty": -0.30
+}

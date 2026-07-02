@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+scripts/.env
+
+# Local runtime artefacts (data, DB, generated outputs)
+redrob_db/
+top100_ranked.json
+submission.xlsx
+submission.csv
+*.jsonl

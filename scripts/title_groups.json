@@ -1,0 +1,762 @@
+{
+  "families": {
+    "ai_ml_core": {
+      "primary": [
+        {
+          "title": "ML Engineer",
+          "count": 167
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 24
+        },
+        {
+          "title": "Senior Machine Learning Engineer",
+          "count": 6
+        },
+        {
+          "title": "Staff Machine Learning Engineer",
+          "count": 6
+        },
+        {
+          "title": "Junior ML Engineer",
+          "count": 131
+        },
+        {
+          "title": "Applied ML Engineer",
+          "count": 23
+        },
+        {
+          "title": "AI Engineer",
+          "count": 21
+        },
+        {
+          "title": "Senior AI Engineer",
+          "count": 4
+        },
+        {
+          "title": "Lead AI Engineer",
+          "count": 3
+        },
+        {
+          "title": "AI Research Engineer",
+          "count": 153
+        },
+        {
+          "title": "AI Specialist",
+          "count": 130
+        },
+        {
+          "title": "Senior Software Engineer (ML)",
+          "count": 142
+        },
+        {
+          "title": "NLP Engineer",
+          "count": 14
+        },
+        {
+          "title": "Senior NLP Engineer",
+          "count": 6
+        },
+        {
+          "title": "Recommendation Systems Engineer",
+          "count": 26
+        },
+        {
+          "title": "Search Engineer",
+          "count": 23
+        },
+        {
+          "title": "Senior Applied Scientist",
+          "count": 4
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Data Scientist",
+          "count": 145
+        },
+        {
+          "title": "Senior Data Scientist",
+          "count": 19
+        },
+        {
+          "title": "Data Engineer",
+          "count": 744
+        },
+        {
+          "title": "Senior Data Engineer",
+          "count": 687
+        },
+        {
+          "title": "Analytics Engineer",
+          "count": 764
+        },
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        }
+      ],
+      "primary_total": 883,
+      "cross_apply_total": 7166
+    },
+    "data_science": {
+      "primary": [
+        {
+          "title": "Data Scientist",
+          "count": 145
+        },
+        {
+          "title": "Senior Data Scientist",
+          "count": 19
+        },
+        {
+          "title": "Senior Applied Scientist",
+          "count": 4
+        },
+        {
+          "title": "AI Research Engineer",
+          "count": 153
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "ML Engineer",
+          "count": 167
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 24
+        },
+        {
+          "title": "Senior Machine Learning Engineer",
+          "count": 6
+        },
+        {
+          "title": "Applied ML Engineer",
+          "count": 23
+        },
+        {
+          "title": "Data Analyst",
+          "count": 728
+        },
+        {
+          "title": "Analytics Engineer",
+          "count": 764
+        },
+        {
+          "title": "Business Analyst",
+          "count": 5833
+        }
+      ],
+      "primary_total": 321,
+      "cross_apply_total": 7545
+    },
+    "data_engineering": {
+      "primary": [
+        {
+          "title": "Data Engineer",
+          "count": 744
+        },
+        {
+          "title": "Senior Data Engineer",
+          "count": 687
+        },
+        {
+          "title": "Analytics Engineer",
+          "count": 764
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        },
+        {
+          "title": "Cloud Engineer",
+          "count": 2836
+        },
+        {
+          "title": "DevOps Engineer",
+          "count": 2787
+        },
+        {
+          "title": "ML Engineer",
+          "count": 167
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 24
+        }
+      ],
+      "primary_total": 2195,
+      "cross_apply_total": 10621
+    },
+    "data_analytics": {
+      "primary": [
+        {
+          "title": "Data Analyst",
+          "count": 728
+        },
+        {
+          "title": "Business Analyst",
+          "count": 5833
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Analytics Engineer",
+          "count": 764
+        },
+        {
+          "title": "Data Engineer",
+          "count": 744
+        },
+        {
+          "title": "Data Scientist",
+          "count": 145
+        }
+      ],
+      "primary_total": 6561,
+      "cross_apply_total": 1653
+    },
+    "backend_engineering": {
+      "primary": [
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        },
+        {
+          "title": "Java Developer",
+          "count": 2809
+        },
+        {
+          "title": ".NET Developer",
+          "count": 2788
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Full Stack Developer",
+          "count": 2873
+        },
+        {
+          "title": "Cloud Engineer",
+          "count": 2836
+        },
+        {
+          "title": "DevOps Engineer",
+          "count": 2787
+        },
+        {
+          "title": "Data Engineer",
+          "count": 744
+        },
+        {
+          "title": "Senior Data Engineer",
+          "count": 687
+        },
+        {
+          "title": "ML Engineer",
+          "count": 167
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 24
+        }
+      ],
+      "primary_total": 10404,
+      "cross_apply_total": 10118
+    },
+    "frontend_engineering": {
+      "primary": [
+        {
+          "title": "Frontend Engineer",
+          "count": 2738
+        },
+        {
+          "title": "Full Stack Developer",
+          "count": 2873
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Mobile Developer",
+          "count": 2757
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        }
+      ],
+      "primary_total": 5611,
+      "cross_apply_total": 6860
+    },
+    "full_stack": {
+      "primary": [
+        {
+          "title": "Full Stack Developer",
+          "count": 2873
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Frontend Engineer",
+          "count": 2738
+        },
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Java Developer",
+          "count": 2809
+        },
+        {
+          "title": ".NET Developer",
+          "count": 2788
+        }
+      ],
+      "primary_total": 6976,
+      "cross_apply_total": 9039
+    },
+    "mobile": {
+      "primary": [
+        {
+          "title": "Mobile Developer",
+          "count": 2757
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Frontend Engineer",
+          "count": 2738
+        },
+        {
+          "title": "Full Stack Developer",
+          "count": 2873
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        }
+      ],
+      "primary_total": 2757,
+      "cross_apply_total": 9061
+    },
+    "devops_cloud": {
+      "primary": [
+        {
+          "title": "DevOps Engineer",
+          "count": 2787
+        },
+        {
+          "title": "Cloud Engineer",
+          "count": 2836
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 653
+        },
+        {
+          "title": "Data Engineer",
+          "count": 744
+        },
+        {
+          "title": "Senior Data Engineer",
+          "count": 687
+        }
+      ],
+      "primary_total": 5623,
+      "cross_apply_total": 6238
+    },
+    "qa": {
+      "primary": [
+        {
+          "title": "QA Engineer",
+          "count": 2682
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Software Engineer",
+          "count": 3450
+        },
+        {
+          "title": "Backend Engineer",
+          "count": 704
+        },
+        {
+          "title": "Full Stack Developer",
+          "count": 2873
+        }
+      ],
+      "primary_total": 2682,
+      "cross_apply_total": 7027
+    },
+    "product_project_mgmt": {
+      "primary": [
+        {
+          "title": "Project Manager",
+          "count": 5754
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Operations Manager",
+          "count": 5744
+        },
+        {
+          "title": "Business Analyst",
+          "count": 5833
+        }
+      ],
+      "primary_total": 5754,
+      "cross_apply_total": 11577
+    },
+    "people_hr": {
+      "primary": [
+        {
+          "title": "HR Manager",
+          "count": 5830
+        }
+      ],
+      "cross_apply": [],
+      "primary_total": 5830,
+      "cross_apply_total": 0
+    },
+    "sales_gtm": {
+      "primary": [
+        {
+          "title": "Sales Executive",
+          "count": 5713
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Marketing Manager",
+          "count": 5524
+        },
+        {
+          "title": "Customer Support",
+          "count": 5750
+        }
+      ],
+      "primary_total": 5713,
+      "cross_apply_total": 11274
+    },
+    "marketing_creative": {
+      "primary": [
+        {
+          "title": "Marketing Manager",
+          "count": 5524
+        },
+        {
+          "title": "Content Writer",
+          "count": 5727
+        },
+        {
+          "title": "Graphic Designer",
+          "count": 5689
+        }
+      ],
+      "cross_apply": [],
+      "primary_total": 16940,
+      "cross_apply_total": 0
+    },
+    "customer_ops": {
+      "primary": [
+        {
+          "title": "Customer Support",
+          "count": 5750
+        },
+        {
+          "title": "Operations Manager",
+          "count": 5744
+        }
+      ],
+      "cross_apply": [
+        {
+          "title": "Project Manager",
+          "count": 5754
+        },
+        {
+          "title": "Business Analyst",
+          "count": 5833
+        }
+      ],
+      "primary_total": 11494,
+      "cross_apply_total": 11587
+    },
+    "finance": {
+      "primary": [
+        {
+          "title": "Accountant",
+          "count": 5764
+        }
+      ],
+      "cross_apply": [],
+      "primary_total": 5764,
+      "cross_apply_total": 0
+    },
+    "physical_engineering": {
+      "primary": [
+        {
+          "title": "Mechanical Engineer",
+          "count": 5791
+        },
+        {
+          "title": "Civil Engineer",
+          "count": 5702
+        }
+      ],
+      "cross_apply": [],
+      "primary_total": 11493,
+      "cross_apply_total": 0
+    }
+  },
+  "unique_titles": [
+    {
+      "title": "Business Analyst",
+      "count": 5833
+    },
+    {
+      "title": "HR Manager",
+      "count": 5830
+    },
+    {
+      "title": "Mechanical Engineer",
+      "count": 5791
+    },
+    {
+      "title": "Accountant",
+      "count": 5764
+    },
+    {
+      "title": "Project Manager",
+      "count": 5754
+    },
+    {
+      "title": "Customer Support",
+      "count": 5750
+    },
+    {
+      "title": "Operations Manager",
+      "count": 5744
+    },
+    {
+      "title": "Content Writer",
+      "count": 5727
+    },
+    {
+      "title": "Sales Executive",
+      "count": 5713
+    },
+    {
+      "title": "Civil Engineer",
+      "count": 5702
+    },
+    {
+      "title": "Graphic Designer",
+      "count": 5689
+    },
+    {
+      "title": "Marketing Manager",
+      "count": 5524
+    },
+    {
+      "title": "Software Engineer",
+      "count": 3450
+    },
+    {
+      "title": "Full Stack Developer",
+      "count": 2873
+    },
+    {
+      "title": "Cloud Engineer",
+      "count": 2836
+    },
+    {
+      "title": "Java Developer",
+      "count": 2809
+    },
+    {
+      "title": ".NET Developer",
+      "count": 2788
+    },
+    {
+      "title": "DevOps Engineer",
+      "count": 2787
+    },
+    {
+      "title": "Mobile Developer",
+      "count": 2757
+    },
+    {
+      "title": "Frontend Engineer",
+      "count": 2738
+    },
+    {
+      "title": "QA Engineer",
+      "count": 2682
+    },
+    {
+      "title": "Analytics Engineer",
+      "count": 764
+    },
+    {
+      "title": "Data Engineer",
+      "count": 744
+    },
+    {
+      "title": "Data Analyst",
+      "count": 728
+    },
+    {
+      "title": "Backend Engineer",
+      "count": 704
+    },
+    {
+      "title": "Senior Data Engineer",
+      "count": 687
+    },
+    {
+      "title": "Senior Software Engineer",
+      "count": 653
+    },
+    {
+      "title": "ML Engineer",
+      "count": 167
+    },
+    {
+      "title": "AI Research Engineer",
+      "count": 153
+    },
+    {
+      "title": "Data Scientist",
+      "count": 145
+    },
+    {
+      "title": "Senior Software Engineer (ML)",
+      "count": 142
+    },
+    {
+      "title": "Computer Vision Engineer",
+      "count": 132
+    },
+    {
+      "title": "Junior ML Engineer",
+      "count": 131
+    },
+    {
+      "title": "AI Specialist",
+      "count": 130
+    },
+    {
+      "title": "Recommendation Systems Engineer",
+      "count": 26
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "count": 24
+    },
+    {
+      "title": "Applied ML Engineer",
+      "count": 23
+    },
+    {
+      "title": "Search Engineer",
+      "count": 23
+    },
+    {
+      "title": "AI Engineer",
+      "count": 21
+    },
+    {
+      "title": "Senior Data Scientist",
+      "count": 19
+    },
+    {
+      "title": "NLP Engineer",
+      "count": 14
+    },
+    {
+      "title": "Senior NLP Engineer",
+      "count": 6
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "count": 6
+    },
+    {
+      "title": "Staff Machine Learning Engineer",
+      "count": 6
+    },
+    {
+      "title": "Senior AI Engineer",
+      "count": 4
+    },
+    {
+      "title": "Senior Applied Scientist",
+      "count": 4
+    },
+    {
+      "title": "Lead AI Engineer",
+      "count": 3
+    }
+  ],
+  "unmapped_titles": [
+    {
+      "title": "Computer Vision Engineer",
+      "count": 132
+    }
+  ],
+  "total_candidates": 100000,
+  "unique_title_count": 47
+}

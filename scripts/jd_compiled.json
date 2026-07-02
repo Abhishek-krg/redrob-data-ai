@@ -1,0 +1,85 @@
+{
+  "role_title": "Senior AI Engineer \u2014 Founding Team",
+  "seniority": "senior",
+  "min_years_experience": 5.0,
+  "max_years_experience": 9.0,
+  "required_technical_skills": [
+    "embeddings",
+    "vector search",
+    "hybrid retrieval",
+    "BM25",
+    "Python",
+    "ranking systems",
+    "evaluation frameworks",
+    "A/B testing",
+    "LLMs"
+  ],
+  "preferred_technical_skills": [
+    "fine-tuning LLMs",
+    "LoRA",
+    "QLoRA",
+    "learning-to-rank",
+    "distributed systems",
+    "inference optimization"
+  ],
+  "target_role_titles": [
+    "Senior AI Engineer",
+    "Senior ML Engineer",
+    "Senior Machine Learning Engineer",
+    "Applied Scientist",
+    "AI/ML Engineer"
+  ],
+  "domain_keywords": [
+    "ranking",
+    "retrieval",
+    "embeddings",
+    "candidate-JD matching",
+    "talent intelligence",
+    "HR-tech",
+    "recruiting tech",
+    "marketplace",
+    "NLP",
+    "information retrieval",
+    "hybrid search",
+    "vector search",
+    "LLMs",
+    "fine-tuning",
+    "evaluation frameworks",
+    "A/B testing"
+  ],
+  "disqualifiers": [
+    "pure research background without production deployment",
+    "AI experience limited to recent LangChain/OpenAI API calls without prior ML production experience",
+    "no production code written in last 18 months due to architecture or tech lead roles",
+    "entire career at consulting firms",
+    "primary expertise in computer vision, speech, or robotics without NLP/IR exposure",
+    "work entirely on closed-source proprietary systems for 5+ years without external validation"
+  ],
+  "visa_sponsorship": false,
+  "expected_projects": [
+    "hybrid retrieval system combining BM25 and dense embeddings for candidate ranking",
+    "LLM-based re-ranker over top-k retrieval results with prompt-engineered relevance scoring",
+    "semantic search over resume corpus using sentence-transformer embeddings and vector database",
+    "learning-to-rank model trained on recruiter click and hire signals",
+    "candidate-JD matching system at scale using embeddings and hybrid search infrastructure"
+  ],
+  "position_requirement_type": "product",
+  "company_type": "startup",
+  "exclude_companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant",
+    "Capgemini"
+  ],
+  "location": {
+    "country": "India",
+    "cities": [
+      "Pune",
+      "Noida"
+    ],
+    "remote_ok": false,
+    "relocation_ok": true
+  }
+}
